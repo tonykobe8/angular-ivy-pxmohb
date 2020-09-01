@@ -9,7 +9,8 @@ export class AppComponent  {
   name = 'Angular';
 
 
-  todolist = [{name:"Matome",Sname:"kobe",age:"30",Tittle:"system admin",button:""},
+  
+  todolist = [{name:"Matome",Sname:"kobe",age:"30",Tittle:"system admin",button:"",},
   {name:"hhhhnda",Sname:"ghhhh",age:"20",Tittle:"Web designer",button:""},
    {name:"ngghdajh",Sname:"gg",age:"40",Tittle:"system developer",button:""},
     {name:"hnda",Sname:"ggggg",age:"25",Tittle:"ICT officer",button:""},
