@@ -8,9 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent  {
   name = 'Angular';
 
-
   
-  todolist = [{name:"Matome",Sname:"kobe",age:"30",Tittle:"system admin",button:"",},
+  todolist = [{name:"Matome",Sname:"kobe",age:"30",Tittle:"system admin",button:"",image: 'banana.jpg'},
   {name:"hhhhnda",Sname:"ghhhh",age:"20",Tittle:"Web designer",button:""},
    {name:"ngghdajh",Sname:"gg",age:"40",Tittle:"system developer",button:""},
     {name:"hnda",Sname:"ggggg",age:"25",Tittle:"ICT officer",button:""},
@@ -20,4 +19,9 @@ export class AppComponent  {
      {name:"4mmhhhanda",Sname:"ppppp",age:"24",Tittle:"IT technician",button:""},
      {name:"5mmahnda",Sname:"uuuu",age:"24",Tittle:"IT security",button:""},
   {name:"kkkwanda",Sname:"gjjgjjkk",age:"33",Tittle:"system analyst",button:""}];
+imageArray = [
+  {"}, 
+  { image: 'apple.jpg' }, 
+  { image: 'orange.jpg' }
+];
 };
