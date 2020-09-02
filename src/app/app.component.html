@@ -1,18 +1,16 @@
 
+   
   
 <div  *ngFor="let todo of todolist"> <br>
-<div  *ngFor="let image of imageArray"> 
 Full names : {{todo.name}}
     {{todo.Sname}}<br>
     Age : {{todo.age}}<br>
      Tittle : {{todo.Tittle}}<br>
-
-    
+ <img src="{{todo.image}}">
+ <br>
+   
  <button>update</button>
     <button>remove</button>
    
 </div>
 
-
-
-</div>
