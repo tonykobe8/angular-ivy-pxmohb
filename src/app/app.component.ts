@@ -9,9 +9,9 @@ export class AppComponent  {
   name = 'Angular';
 
   
-  todolist = [{name:"Matome",Sname:"kobe",age:"30",Tittle:"system admin",button:"",image:"https://stackblitz.com/files/angular-ivy-mleyrm/github/tonykobe8/angular-ivy-mleyrm/master/download.jpeg"},
+  todolist = [{name:"Matome",Sname:"kobe",age:"30",Tittle:"system admin",button:"",image:"https://stackblitz.com/files/angular-ivy-pxmohb/github/tonykobe8/angular-ivy-pxmohb/master/349353287.jpg"},
   {name:"hhhhnda",Sname:"ghhhh",age:"20",Tittle:"Web designer",button:""},
-   {name:"ngghdajh",Sname:"gg",age:"40",Tittle:"system developer",button:""},
+   {name:"ngghdajh",Sname:"gg",age:"40",Tittle:"system developer",button:"",image:"https://stackblitz.com/files/angular-ivy-mleyrm/github/tonykobe8/angular-ivy-mleyrm/master/download.jpeg"},
     {name:"hnda",Sname:"ggggg",age:"25",Tittle:"ICT officer",button:""},
      {name:"1mmanhda",Sname:"g",age:"24",Tittle:"IT technician",button:""},
      {name:"2mmavnda",Sname:"kkkk",age:"24",Tittle:"software developer",button:""},
