@@ -1,16 +1,19 @@
 
-   
-  
+  <h1>Employee dashboard</h1> 
+ 
 <div  *ngFor="let todo of todolist"> <br>
 Full names : {{todo.name}}
     {{todo.Sname}}<br>
     Age : {{todo.age}}<br>
      Tittle : {{todo.Tittle}}<br>
  <img src="{{todo.image}}">
- <br>
-   
- <button>update</button>
-    <button>remove</button>
+<br>
+ <div class="botton-buttons">
+      <button mat-raised-button color="accent">Update</button>
+
+      <button mat-raised-button color="warn">remove</button>
    
 </div>
 
+     
+  
